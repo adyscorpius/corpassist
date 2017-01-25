@@ -492,7 +492,7 @@ header > .navbar {
   background: rgba(255, 255, 255, 0.9);
   border-color: #efefef;
   height: 90px;
-  line-height: 90px;
+  /* line-height: 90px; */
   min-height: 30px;
   margin: 0;
   border-radius: 0;
@@ -597,12 +597,19 @@ header > .navbar {
   margin-left: 0;
   font-size: 22px;
   line-height: inherit;
-  max-width: 200px;
+
   -moz-transition: width 0.3s;
   -o-transition: width 0.3s;
   -webkit-transition: width 0.3s;
   transition: width 0.3s;
 }
+
+@media (max-width: 767px) {
+.navbar > .container .navbar-header .navbar-brand .title-hide {
+    display: none;
+  }
+}
+
 @media (max-width: 991px) {
   .navbar > .container .navbar-header .navbar-brand {
     float: none;
