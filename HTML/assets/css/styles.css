@@ -683,7 +683,7 @@ header > .navbar {
   padding-bottom: 0 !important;
   padding-top: 0 !important;
   height: 90px;
-  line-height: inherit;
+  line-height: 90px;
   display: block;
   margin-right: 5px;
   color: #808080;
